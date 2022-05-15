@@ -74,4 +74,5 @@ heroku logs --tail --app APP_NAME
 ![browser](./image7.png)
 
 16. Радуемся. Всё работает! Вы великолепны!
+
 ![done](./image8.jpeg)
