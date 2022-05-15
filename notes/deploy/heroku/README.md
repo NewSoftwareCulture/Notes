@@ -71,4 +71,7 @@ heroku logs --tail --app APP_NAME
 ```
 
 15. Откроем приложение в браузере.
-![app](./image7.png)
+![browser](./image7.png)
+
+16. Радуемся. Всё работает! Вы великолепны!
+![done](./image8.jpeg)
