@@ -9,21 +9,27 @@
 1. Заходим на дашборд [heroku](https://dashboard.heroku.com/apps).
 
 2. Создадим новый пайп (create new pipeline).
+
 ![dashboard](./image1.png)
 
 3. Введем название пайпа, выберем владельца и при необходимости можем подключить аккаунт GitHub для CI/CD. В данный момент ограничимся только названием пайпа и владельцем.
+
 ![create pipe](./image2.png)
 
 4. Создадим staging app.
+
 ![create app](./image3.png)
 
 5. Введем название приложения и выберем локацию хоста.
+
 ![create app](./image4.png)
 
 6. Перейдем в созданное приложение.
+
 ![to app](./image5.png)
 
 7. Переходим во вкладку Deploy. В пункте Deployment method выбираем Container Registry, чтобы можно было задеплоить приложение с использованием Docker.
+
 ![app](./image6.png)
 
 8. Переходим в терминал и устанавливаем [heroku cli](https://devcenter.heroku.com/articles/heroku-cli). 
@@ -71,6 +77,7 @@ heroku logs --tail --app APP_NAME
 ```
 
 15. Откроем приложение в браузере.
+
 ![browser](./image7.png)
 
 16. Радуемся. Всё работает! Вы великолепны!
