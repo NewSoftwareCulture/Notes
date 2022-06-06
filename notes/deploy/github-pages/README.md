@@ -22,30 +22,13 @@ npm start
 git remote add origin REPOSITORY_URL
 ```
 
-4. Add files to commit
-
-```bash
-git add .
-```
-
-5. Commit changes
-
-```bash
-git commit -m "init"
-```
-
-6. Push changes
-
-```bash
-git push origin master
-```
-7. Install package for github pages
+4. Install package for github pages
 
 ```bash
 npm install gh-pages --dev
 ```
 
-8. Add deploy script in package.json
+5. Add deploy script in package.json
 
 ```json
 {
@@ -53,12 +36,30 @@ npm install gh-pages --dev
 }
 ```
 
-9. Add homepage in package.json
+6. Add homepage in package.json
 
 ```json
 {
   "homepage": "https://NAME_ACCOUNT.github.io/REPOSITORY_NAME"
 }
+```
+
+7. Add files to commit
+
+```bash
+git add .
+```
+
+8. Commit changes
+
+```bash
+git commit -m "init"
+```
+
+9. Push changes
+
+```bash
+git push origin master
 ```
 
 10. Deploy your React App to Github Pages
