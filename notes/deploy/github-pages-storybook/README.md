@@ -1,4 +1,4 @@
-# How deploy Storybook to Github Pages
+# How to deploy Storybook on Github Pages
 
 1. Create React App
 
